@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "car-maintenance-scheduler",
+    "slug": "car-maintenance-scheduler",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/MekaniGo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/MekaniGo.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#545454"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/MekaniGo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/MekaniGo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
